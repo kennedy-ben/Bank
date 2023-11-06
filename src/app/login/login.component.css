@@ -1,0 +1,87 @@
+/* .text-right.forget-pass a {
+    font-size: 12px;
+    color:brown;
+    text-decoration: none;
+} */
+
+.sigup {
+    color: aliceblue;
+}
+
+.sigup a {
+    color: #007bff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    place-content: center;
+}
+
+.card.auth {
+    width: 100%;
+    max-width: 400px;
+    padding: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+.card-body.auth-card {
+    text-align: center;
+}
+
+
+.auth-avator img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.form-group {
+    margin: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+.text-right.forget-pass {
+    text-align: right;
+    margin-top: 10px;
+}
+
+input.btn-my {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.text-center.sigup {
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+
+.text-center.sigup a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
