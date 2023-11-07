@@ -1,0 +1,27 @@
+.about-us {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .about-us img {
+    max-width: 100%;
+  }
+  .contact-us {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  .contact-us h2 {
+    font-size: 24px;
+  }
+  .contact-us p {
+    font-size: 16px;
+  }
+  .contact-us ul {
+    list-style: none;
+    padding: 0;
+  }
+  .contact-us li {
+    margin-bottom: 10px;
+  }
+  
