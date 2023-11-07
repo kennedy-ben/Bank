@@ -1,22 +1,19 @@
 <!DOCTYPE html>
-<div>
-
-    <!-- <span>{{ title }} app is running!</span> -->
-    <!-- <app-sigup></app-sigup> -->
-    <!-- <app-login></app-login> -->
-    
+<html>
+<head>
+  
+</head>
+<body>
+  <div>
     <section class="landing">
-     
       <div class="navbar">
         <div class="logo">
           <h1>Alfa Bank</h1>
         </div>
         <div class="nav-links">
-          <a href="#">About Us</a>
-          <a href="./dashboard/dashboard.component.html">Dashboard</a>
-          <a href="#">Account</a>
-          <a href="./sigup/sigup.component.html">Sign Up</a>
-          
+          <a routerLink="/about">Abaout Us</a>
+          <a routerLink="/dashboard">Dashboard</a>
+          <a routerLink="/sigup">Sign Up</a>
         </div>
       </div>
       <div class="wrapper">
@@ -25,12 +22,15 @@
             <h2>New Bank for a New Age</h2>
             <a href="#" class="learn-more-button">Learn More</a>
           </div>
-          
         </div>
       </div>
-      
     </section>
   </div>
+  <router-outlet></router-outlet>
+</body>
+</html>
 
 
-<router-outlet></router-outlet> 
+ <!-- <span>{{ title }} app is running!</span> -->
+    <!-- <app-sigup></app-sigup> -->
+    <!-- <app-login></app-login> -->
