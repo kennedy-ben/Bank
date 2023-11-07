@@ -6,7 +6,7 @@
   .about-us img {
     max-width: 100%;
   }
-  .contact-us {
+  /* .contact-us {
     margin-top: 40px;
     padding: 20px;
     background-color: #f7f7f7;
@@ -23,5 +23,17 @@
   }
   .contact-us li {
     margin-bottom: 10px;
+  } */
+  /* .content-container {
+    display: flex;
+  } */
+  
+  /* .about-us-container {
+    flex: 1;
+    margin-right: 20px; 
   }
+  
+  .contact-us-container {
+    flex: 1;
+  } */
   
